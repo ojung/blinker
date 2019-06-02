@@ -8,7 +8,7 @@ fn main() -> std::io::Result<()> {
 
     log_watcher.watch(|line: String| {
         if line.contains("gravity") {
-            println!("blocked: {}", line);
+            println!("blocked: {}", &line[57..]);
             blink(1)
         } else {
             blink(0)
