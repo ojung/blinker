@@ -1,0 +1,9 @@
+[package]
+name = "blinker"
+version = "0.1.0"
+authors = ["ojung"]
+edition = "2018"
+
+[dependencies]
+logwatcher = "0.1"
+
